@@ -25,7 +25,7 @@ export default class Singup extends React.Component {
         console.log(err);
         this.setState({error: err.reason});
       } else {
-        this.setState({error: ''});
+        this.setState({error: undefined});
       }
     });
 

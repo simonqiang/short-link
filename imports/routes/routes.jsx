@@ -10,7 +10,7 @@ import Login from "../ui/Login";
 window.browserHistory = browserHistory;
 
 
-const unauthenicatePage = ['/', '/singup'];
+const unauthenicatePage = ['/', '/signup'];
 const authenicatePage = ['/links'];
 const onEnterPublicPage = () => {
   if(Meteor.userId()) {
